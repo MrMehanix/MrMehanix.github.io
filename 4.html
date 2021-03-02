@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+		<title>Четвертый пункт</title>
+	</head>
+	<body>
+		<h1>Данные о сотруднике фирмы</h1>
+		<form>
+			<p>ФИО</p>
+			<input type="text" required size=50/>
+			<p>Серия и номер паспорта</p>
+			<input type="text" required maxlength=4 pattern="^[0-9]+$" size=1/>
+			<input type="text" required maxlength=6 pattern="^[0-9]+$" size=3/>
+			<p>Образование</p>
+			<input type="text" required size=50/>
+			<p>Специальность</p>
+			<input type="text" required size=50/>
+			<p>Подразделение</p>
+			<input type="text" required size=50/>
+			<p>Должность</p>
+			<input type="text" required size=50/>
+			<p>Оклад</p>
+			<input type="text" required pattern="^[0-9]+$"/>
+			<p>Дата поступления в фирму</p>
+			<input type="date" required/>
+			<p>Дата последнего назначения</p>
+			<input type="date" required/>
+			</br>
+			</br>
+			<input type="submit"/>
+			<input type="reset"/>
+		</form>
+	</body>
+</html>
