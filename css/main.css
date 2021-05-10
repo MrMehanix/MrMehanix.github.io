@@ -117,11 +117,7 @@ body {
   margin-bottom: 10px;
 }
 
-#mainBlock .wrapper a h1 {
-  margin: 0;
-}
-
-#mainBlock .wrapper h2 {
+#mainBlock .wrapper h1 {
   font-size: 50px;
   margin: 10px 0;
 }
@@ -688,7 +684,7 @@ body {
     width: 320px;
   }
   #footer .wrapper .shares {
-    padding: 0;
+    padding: 0 0 15px 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
