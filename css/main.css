@@ -684,6 +684,9 @@ body {
     padding: 0;
     text-align: center;
   }
+  #footer .wrapper .links {
+    width: 320px;
+  }
   #footer .wrapper .shares {
     padding: 0;
     -webkit-box-pack: center;
