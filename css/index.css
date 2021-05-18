@@ -3,7 +3,7 @@
   font-display: swap;
   src: url("../fonts/PFBeauSansPro-Regular.eot");
   src: local("PFBeauSansPro-Regular"), url("../fonts/PFBeauSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PFBeauSansPro-Regular.woff2") format("woff2"), url("../fonts/PFBeauSansPro-Regular.woff") format("woff"), url("../fonts/PFBeauSansPro-Regular.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -12,7 +12,7 @@
   font-display: swap;
   src: url("../fonts/PFBeauSansPro-Bold.eot");
   src: local("PFBeauSansPro-Bold"), url("../fonts/PFBeauSansPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/PFBeauSansPro-Bold.woff2") format("woff2"), url("../fonts/PFBeauSansPro-Bold.woff") format("woff"), url("../fonts/PFBeauSansPro-Bold.ttf") format("truetype");
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -21,7 +21,7 @@
   font-display: swap;
   src: url("../fonts/PFBeauSansPro-SemiBold.eot");
   src: local("PFBeauSansPro-SemiBold"), url("../fonts/PFBeauSansPro-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PFBeauSansPro-SemiBold.woff2") format("woff2"), url("../fonts/PFBeauSansPro-SemiBold.woff") format("woff"), url("../fonts/PFBeauSansPro-SemiBold.ttf") format("truetype");
-  font-weight: bolder;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -30,7 +30,7 @@
   font-display: swap;
   src: url("../fonts/PFBeauSansPro-Light.eot");
   src: local("PFBeauSansPro-Light"), url("../fonts/PFBeauSansPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/PFBeauSansPro-Light.woff2") format("woff2"), url("../fonts/PFBeauSansPro-Light.woff") format("woff"), url("../fonts/PFBeauSansPro-Light.ttf") format("truetype");
-  font-weight: light;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -81,7 +81,7 @@ body {
 .headerText {
   color: #d11315;
   font-family: "PF Beau Sans Pro";
-  font-weight: bold;
+  font-weight: 700;
   font-size: 120px;
   text-align: center;
   line-height: 80px;
@@ -232,7 +232,7 @@ body {
 #footer .wrapper .info {
   width: 150px;
   font-family: "PF Beau Sans Pro";
-  font-weight: light;
+  font-weight: 300;
   font-size: 12px;
   color: #ffffff;
   padding-left: 30px;
@@ -252,7 +252,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   font-family: "PF Beau Sans Pro";
-  font-weight: light;
+  font-weight: 300;
   font-size: 12px;
 }
 
@@ -553,7 +553,7 @@ body {
   color: #ffffff;
   text-align: center;
   font-family: "PF Beau Sans Pro";
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
 }
 
@@ -562,7 +562,7 @@ body {
   color: #ffffff;
   text-align: center;
   font-family: "PF Beau Sans Pro";
-  font-weight: light;
+  font-weight: 300;
   font-size: 14px;
   margin: 15px auto 25px auto;
 }
