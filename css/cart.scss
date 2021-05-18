@@ -1,0 +1,203 @@
+@import "template.scss";
+
+#mainBlock {
+    background-image: url(../images/bg_tree.jpg);
+    background-size: auto;
+    background-repeat: repeat-y;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: $text;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 30px auto 0px auto;
+    padding: 0 30px;
+}
+
+.itemsWrapper {
+    width: 1140px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.item {
+    width: 1120px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.itemNumber {
+    width: 50px;
+    font-family: $text;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.itemName {
+    width: 920px;
+    font-family: $text;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.itemCount {
+    width: auto;
+    font-family: $text;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.item:nth-child(1) {
+
+    .itemName {
+        font-weight: bold;
+    }
+
+    .itemCount {
+        font-weight: bold;
+    }
+
+    .itemNumber {
+        font-weight: bold;
+    }
+}
+
+.contactWrapper {
+    margin-bottom: 30px;
+}
+
+.field {
+    width: 1140px;
+    padding: 0 30px;
+    margin: 0 auto;
+
+    p {
+        color: #ffffff;
+        font-family: $text;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    input {
+        width: 400px;
+        height: 20px;
+        border-radius: 10px;
+        font-family: $text;
+    }
+
+    input, [placeholder] {
+        padding: 0 10px;
+    }
+    
+    textarea {
+        width: 400px;
+        height: 20px;
+        font-family: $text;
+    }
+
+    textarea, [placeholder] {
+        padding: 10px;
+    }
+}
+
+.submit {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: $brown;
+    color: #ffffff;
+    font-family: $text;
+    font-weight: bold;
+    font-size: 26px;
+    border-color: #ffffff;
+}
+
+@media screen and (max-width:1200px){
+    .itemsWrapper {
+        width: 900px;
+    }
+
+    .item {
+        width: 880px;
+    }
+
+    .itemName {
+        width: 670px;
+    }
+
+    .field {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width:960px){
+    .itemsWrapper {
+        width: 580px;
+    }
+
+    .item {
+        width: 560px;
+    }
+
+    .itemNumber {
+        width: 30px;
+        font-size: 16px;
+    }
+
+    .itemName {
+        width: 400px;
+        font-size: 16px;
+    }
+
+    .itemCount {
+        font-size: 16px;
+    }
+
+    .field {
+        width: 580px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .itemsWrapper {
+        width: 420px;
+    }
+
+    .item {
+        width: 400px;
+    }
+
+    .itemName {
+        width: 250px;
+    }
+
+    .field {
+        width: 380px;
+        font-size: 16px;
+        margin: 0;
+
+        input {
+            width: 390px;
+        }
+
+        textarea {
+            width: 390px;
+        }
+    }
+
+    .submit {
+        width: 410px;
+    }
+}
+
+@media screen and (max-width:480px){
+}
