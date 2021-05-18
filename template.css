@@ -1,0 +1,434 @@
+@font-face {
+  font-family: 'PF Beau Sans Pro';
+  font-display: swap;
+  src: url("../fonts/PFBeauSansPro-Regular.eot");
+  src: local("PFBeauSansPro-Regular"), url("../fonts/PFBeauSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PFBeauSansPro-Regular.woff2") format("woff2"), url("../fonts/PFBeauSansPro-Regular.woff") format("woff"), url("../fonts/PFBeauSansPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF Beau Sans Pro';
+  font-display: swap;
+  src: url("../fonts/PFBeauSansPro-Bold.eot");
+  src: local("PFBeauSansPro-Bold"), url("../fonts/PFBeauSansPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/PFBeauSansPro-Bold.woff2") format("woff2"), url("../fonts/PFBeauSansPro-Bold.woff") format("woff"), url("../fonts/PFBeauSansPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF Beau Sans Pro';
+  font-display: swap;
+  src: url("../fonts/PFBeauSansPro-SemiBold.eot");
+  src: local("PFBeauSansPro-SemiBold"), url("../fonts/PFBeauSansPro-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PFBeauSansPro-SemiBold.woff2") format("woff2"), url("../fonts/PFBeauSansPro-SemiBold.woff") format("woff"), url("../fonts/PFBeauSansPro-SemiBold.ttf") format("truetype");
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF Beau Sans Pro';
+  font-display: swap;
+  src: url("../fonts/PFBeauSansPro-Light.eot");
+  src: local("PFBeauSansPro-Light"), url("../fonts/PFBeauSansPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/PFBeauSansPro-Light.woff2") format("woff2"), url("../fonts/PFBeauSansPro-Light.woff") format("woff"), url("../fonts/PFBeauSansPro-Light.ttf") format("truetype");
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Izhitsa Cyrillic';
+  font-display: swap;
+  src: url("../fonts/izhitsa-cyrillic.ttf");
+  src: local("Izhitsa Cyrillic"), url("../fonts/izhitsa-cyrillic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.block {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.blackFilter {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+}
+
+.mainHeader {
+  padding-top: 180px;
+}
+
+.headerText {
+  color: #d11315;
+  font-family: "PF Beau Sans Pro";
+  font-weight: bold;
+  font-size: 120px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.headerText-alt {
+  color: #ffffff;
+  font-family: "PF Beau Sans Pro";
+  font-weight: normal;
+}
+
+.headerDescription {
+  color: #ffffff;
+  font-family: "Izhitsa Cyrillic";
+  text-align: center;
+  font-size: 44px;
+}
+
+#headerBlock {
+  height: 450px;
+  background-image: url(../images/main.jpg);
+  background-size: cover;
+  background-position-y: center;
+}
+
+#headerBlock .fire_1 {
+  position: absolute;
+  left: 50%;
+  top: -15%;
+  width: 350px;
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+  z-index: 1;
+}
+
+#headerBlock .fire_2 {
+  position: absolute;
+  right: 0;
+  top: 115px;
+  width: 200px;
+}
+
+#headerBlock .fire_3 {
+  position: absolute;
+  left: 0;
+  top: 170px;
+  width: 200px;
+}
+
+#headerBlock .wrapper {
+  position: relative;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 3;
+}
+
+#headerBlock .wrapper a {
+  text-decoration: none;
+}
+
+#headerBlock .wrapper a img {
+  height: 50px;
+  width: 75px;
+  margin-left: 478px;
+  margin-bottom: 10px;
+}
+
+#headerBlock .wrapper h1 {
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+#nav {
+  height: 50px;
+  background-color: #532700;
+  border-top: #ffffff solid 3px;
+  border-bottom: #ffffff solid 3px;
+}
+
+#nav .wrapper {
+  height: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#nav .wrapper img {
+  width: 20px;
+  margin: 0 20px;
+}
+
+#nav .wrapper img:first-child {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+#nav .wrapper a {
+  color: #ffffff;
+  font-family: "Izhitsa Cyrillic";
+  font-size: 24px;
+  text-decoration: none;
+  margin: 0 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#nav .wrapper a:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+#mainBlock {
+  height: auto;
+  background-image: url(../images/menu_bg.jpg);
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+#footer {
+  height: 50px;
+  background-color: #000000;
+  border-top: #ffffff solid 1px;
+}
+
+#footer .wrapper {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+#footer .wrapper .info {
+  width: 150px;
+  font-family: "PF Beau Sans Pro";
+  font-weight: light;
+  font-size: 12px;
+  color: #ffffff;
+  padding-left: 30px;
+}
+
+#footer .wrapper .links {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer .wrapper .links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "PF Beau Sans Pro";
+  font-weight: light;
+  font-size: 12px;
+}
+
+#footer .wrapper .shares {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 30px;
+}
+
+#footer .wrapper .shares img {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    width: 960px;
+  }
+  #headerBlock .blackFilter .fire_2 {
+    top: 199px;
+    width: 150px;
+  }
+  #headerBlock .blackFilter .fire_3 {
+    top: 212px;
+    width: 170px;
+  }
+  #headerBlock .blackFilter .wrapper a img {
+    margin-left: 355px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .wrapper {
+    width: 640px;
+  }
+  #headerBlock .blackFilter .fire_1 {
+    width: 200px;
+    top: 40px;
+  }
+  #headerBlock .blackFilter .fire_2 {
+    top: 250px;
+    width: 120px;
+  }
+  #headerBlock .blackFilter .fire_3 {
+    top: 282px;
+    width: 120px;
+  }
+  #headerBlock .blackFilter .wrapper a img {
+    margin-left: 195px;
+  }
+  #footer {
+    padding-top: 20px;
+    height: 80px;
+  }
+  #footer .wrapper {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #footer .wrapper .info {
+    width: 200px;
+  }
+  #footer .wrapper .links {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #footer .wrapper .links a {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    width: 480px;
+  }
+  #headerBlock {
+    height: 250px;
+  }
+  #headerBlock .blackFilter .fire_1 {
+    width: 150px;
+    top: -20px;
+  }
+  #headerBlock .blackFilter .fire_2 {
+    display: none;
+  }
+  #headerBlock .blackFilter .fire_3 {
+    display: none;
+  }
+  #headerBlock .blackFilter .wrapper a img {
+    height: 40px;
+    width: 60px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+  }
+  #headerBlock .blackFilter .wrapper a .headerText {
+    font-size: 80px;
+    line-height: 60px;
+  }
+  #headerBlock .blackFilter .wrapper .headerDescription {
+    font-size: 34px;
+    margin: 0;
+  }
+  #nav .wrapper a {
+    font-size: 16px;
+    margin: 0 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 320px;
+  }
+  #headerBlock .blackFilter .wrapper a img {
+    height: 24px;
+    width: 36px;
+    margin-left: 104px;
+  }
+  #headerBlock .blackFilter .wrapper a .headerText {
+    font-size: 52px;
+    line-height: 40px;
+  }
+  #headerBlock .blackFilter .wrapper .headerDescription {
+    font-size: 22px;
+  }
+  #nav {
+    height: 40px;
+  }
+  #nav .wrapper {
+    width: 320px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #nav .wrapper img {
+    display: none;
+  }
+  #nav .wrapper a {
+    margin: 0 10px;
+  }
+  #footer {
+    height: 150px;
+  }
+  #footer .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer .wrapper .info {
+    padding: 0;
+    text-align: center;
+  }
+  #footer .wrapper .links {
+    width: 320px;
+  }
+  #footer .wrapper .shares {
+    padding: 0 0 15px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #footer .wrapper .shares a img {
+    margin: 0 10px;
+  }
+}
+/*# sourceMappingURL=template.css.map */
