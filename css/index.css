@@ -30,7 +30,7 @@
   font-display: swap;
   src: url("../fonts/PFBeauSansPro-Light.eot");
   src: local("PFBeauSansPro-Light"), url("../fonts/PFBeauSansPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/PFBeauSansPro-Light.woff2") format("woff2"), url("../fonts/PFBeauSansPro-Light.woff") format("woff"), url("../fonts/PFBeauSansPro-Light.ttf") format("truetype");
-  font-weight: lighter;
+  font-weight: light;
   font-style: normal;
 }
 
@@ -232,7 +232,7 @@ body {
 #footer .wrapper .info {
   width: 150px;
   font-family: "PF Beau Sans Pro";
-  font-weight: lighter;
+  font-weight: light;
   font-size: 12px;
   color: #ffffff;
   padding-left: 30px;
@@ -252,7 +252,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   font-family: "PF Beau Sans Pro";
-  font-weight: lighter;
+  font-weight: light;
   font-size: 12px;
 }
 
