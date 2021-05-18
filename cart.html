@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ТайЖгуч - Ресторан тайской кухни в Москве</title>
-    <meta name="description" content="
-        Расположение тайского ресторана «ТайЖгуч». Москва, Ветошный переулок дом 9, Торговый центр «Никольский пассаж».
-        Станции метро: «Площадь Революции», «Китай-город», «Охотный ряд». Доставка тайской еды в Москве. Настоящая тайская кухня, близко как никогда.">
+    <title>ТайЖгуч - Корзина</title>
     <meta name="keywords" content="тайжгуч, меню, блюда, доставка, ресторан, контакты" />
     <meta property="og:title" content="Ресторан тайской кухни в Москве"/>
     <meta property="og:description" content="В меню вы найдете самые популярные блюда тайской кухни, приготовленные по аутентичным рецептам с настоящими тайскими специями и соусами."/>
@@ -18,7 +15,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://MrMehanix.github.io/"/>
 
-    <link href = "css/index.css" type="text/css" rel="stylesheet">
+    <link href = "css/cart.css" type="text/css" rel="stylesheet">
 
     <meta name="yandex-verification" content="b5db0304ebdcf7b5" />
 
@@ -50,6 +47,7 @@
     <!-- /Global site tag (gtag.js) - Google Analytics -->
 </head>
 <body>
+
     <!-- Шапка -->
 
     <div class="block" id="headerBlock">
@@ -63,7 +61,7 @@
                     <div class="headerText">ТАИ<span class="headerText-alt">ЖГУЧ</span></div>
                 </a>
                 <h1 class="headerDescription niceText">
-                    Ресторан тайской кухни
+                    Оформление заказа
                 </h1>
             </div>
         </div>
@@ -82,55 +80,71 @@
         </div>
     </div>
 
-    <!-- Основной контент -->
+    <!-- Основной блок -->
 
     <div class="block" id="mainBlock">
         <div class="blackFilter">
             <div class="wrapper">
-                <div class="popular">
-                    <img src="images/tomyam.png" alt="Суп 'Том Ям'" title="Суп 'Том Ям'">
-                    <div class="popularContainer">
-                        <h2 class="header">Популярные блюда</h2>
-                        <div class="description">
-                            В меню вы найдете самые популярные блюда тайской кухни,
-                            приготовленные по аутентичным рецептам с настоящими тайскими
-                            специями и соусами.
+                <form action="submit">
+                    <h2>Выбранные блюда</h2>
+                    <div class="itemsWrapper">
+                        <div class="item">
+                            <div class="itemNumber">№</div>
+                            <div class="itemName">Название</div>
+                            <div class="itemCount">Количество</div>
                         </div>
-                        <a class="button header" href="menu.html">
-                            <div class="header">МЕНЮ</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="cardsWrapper">
-                    <div class="card">
-                        <img src="images/ananas.png" alt="Ананасовый жаренный рис" title="Ананасовый жаренный рис">
-                        <div class="cardHeader">Ананасовый жаренный рис</div>
-                        <div class="cardDescriptor">
-                            Аппетитный жаренный рис с креветками, кешью,
-                            кусоками овощей и ананаса. Блюдо не острое,
-                            а значит порадует и детей.
+                        <div class="item">
+                            <div class="itemNumber">1</div>
+                            <div class="itemName">Том Ям</div>
+                            <div class="itemCount">2</div>
+                            <button class="itemMinus">-</button>
+                            <button class="itemPlus">+</button>
                         </div>
-                    </div>
-                    <div class="card">
-                        <img src="images/karri.png" alt="Зелённое карри с курицей" title="Зелённое карри с курицей">
-                        <div class="cardHeader">Зелённое карри с курицей</div>
-                        <div class="cardDescriptor">
-                            Аутентичное тайское карри, куда мы не пожалели
-                            листьев кафир-лайма и базилика, чтобы вкус
-                            был максимально насыщенным.
+                        <div class="item">
+                            <div class="itemNumber">2</div>
+                            <div class="itemName">Еда</div>
+                            <div class="itemCount">1</div>
+                            <button class="itemMinus">-</button>
+                            <button class="itemPlus">+</button>
+                        </div>
+                        <div class="item">
+                            <div class="itemNumber">3</div>
+                            <div class="itemName">Еще еда</div>
+                            <div class="itemCount">3</div>
+                            <button class="itemMinus">-</button>
+                            <button class="itemPlus">+</button>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="images/salat.png" alt="Салат «лап му» с рисовой крошкой и мятой — это нечто невероятное!" title="Острый мясной салат">
-                        <div class="cardHeader">Острый мясной салат</div>
-                        <div class="cardDescriptor">
-                            Салат «лап му» с рисовой крошкой и мятой — это нечто невероятное!
+
+                    <div class="contactWrapper">
+                        <h2>Заполните форму заказа</h2>
+                        <div class="field" tabindex="1">
+                            <p>
+                                Ваше имя
+                            </p>
+                            <input name="username" type="text" placeholder="Гордон Рамзи" required>
                         </div>
+                        <div class="field" tabindex="2">
+                            <p for="phone">
+                                Номер телефона
+                            </p>
+                            <input name="phone" type="tel" placeholder="+7(999)999-99-99" required>
+                        </div>
+                        <div class="field" tabindex="3">
+                            <p for="message">
+                                Ваш адрес
+                            </p>
+                            <textarea name="message" placeholder="ул. Пушкина, д. Колотушкина..."></textarea>
+                        </div>
+                        <div class="field" tabindex="4">
+                            <p for="message">
+                                Ваше сообщение или комментарий
+                            </p>
+                            <textarea name="message" placeholder="Дополнительно..."></textarea>
+                        </div>
+                        <button class="submit" type="sumbit">Подтвердить заказ</button>
                     </div>
-                </div>
-                <a class="button" href="delivery.html">
-                    <div class="header">Онлайн заказ тайской еды в Москве</div>
-                </a>
+                </form>
             </div>
         </div>
     </div>

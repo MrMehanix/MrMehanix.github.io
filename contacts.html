@@ -1,111 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ТайЖгуч - Ресторан тайской кухни в Москве</title>
-    <link href = "css/main.css" type="text/css" rel="stylesheet">
+    <title>ТайЖгуч - Контакты ресторана тайской кухни</title>
+    <meta name="description" content="Расположение тайского ресторана «ТайЖгуч». Москва, Ветошный переулок дом 9, Торговый центр «Никольский пассаж». Станции метро: «Площадь Революции», «Китай-город», «Охотный ряд». Доставка тайской еды в Москве. Настоящая тайская кухня, близко как никогда.">
+    <meta name="keywords" content="тайжгуч, меню, блюда, доставка, ресторан, контакты" />
+    <meta property="og:title" content="Ресторан тайской кухни в Москве"/>
+    <meta property="og:description" content="В меню вы найдете самые популярные блюда тайской кухни, приготовленные по аутентичным рецептам с настоящими тайскими специями и соусами."/>
+    <meta property="og:site_name" content="ТайЖгуч - Ресторан тайской кухни в Москве"/>
+    <meta property="og:image" content="https://raw.githubusercontent.com/MrMehanix/MrMehanix.github.io/master/images/meta_image.jpg"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://MrMehanix.github.io/"/>
+
+    <link href = "css/contacts.css" type="text/css" rel="stylesheet">
+
+    <meta name="yandex-verification" content="b5db0304ebdcf7b5" />
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+        ym(78086656, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/78086656" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5TGDV4B02F"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5TGDV4B02F');
+    </script>
+    <!-- /Global site tag (gtag.js) - Google Analytics -->
 </head>
 <body>
 
-    <div class="block" id="mainBlock">
+    <!-- Шапка -->
+
+    <div class="block" id="headerBlock">
         <div class="blackFilter">
-            <img class="fire_1" src="images/fire_1.png" alt="">
-            <img class="fire_2" src="images/fire_2.png" alt="">
-            <img class="fire_3" src="images/fire_3.png" alt="">
+            <img class="fire_1" src="images/fire_1.png" alt="Огонь png" title="Огонь">
+            <img class="fire_2" src="images/fire_2.png" alt="Огонь png" title="Огонь">
+            <img class="fire_3" src="images/fire_3.png" alt="Огонь png" title="Огонь">
             <div class="wrapper">
                 <a href="index.html">
-                    <img src="images/pepper.png" alt="Перец">
-                    <h1 class="headerText">ТАИ<span class="headerText-alt">ЖГУЧ</span></h1>
+                    <img src="images/pepper.png" alt="Перец" title="Перец">
+                    <div class="headerText">ТАИ<span class="headerText-alt">ЖГУЧ</span></div>
                 </a>
-                <h2 class="headerDescription niceText">
+                <h1 class="headerDescription niceText">
                     Информация о компании
-                </h2>
+                </h1>
             </div>
         </div>
     </div>
 
+    <!-- Навигация -->
 
     <div class="block" id="nav">
         <div class="wrapper">
-            <img src="images/kavichka.svg" alt="">
-            <a href="#">Меню</a>
-            <a href="#">Доставка</a>
-            <a href="#">Контакты</a>
-            <a href="#">О нас</a>
-            <img src="images/kavichka.svg" alt="">
+            <img src="images/kavichka.svg" alt="Кавычка-ёлочка" title="Кавычка-ёлочка">
+            <a href="menu.html">Меню</a>
+            <a href="cart.html">Корзина</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="about.html">О нас</a>
+            <img src="images/kavichka.svg" alt="Кавычка-ёлочка" title="Кавычка-ёлочка">
         </div>
     </div>
 
-    <div class="block" id="menuBlock">
+    <!-- Основной блок -->
+
+    <div class="block" id="mainBlock">
         <div class="blackFilter">
             <div class="wrapper">
-                <div class="popular">
-                    <img src="images/tomyam.png" alt="">
-                    <div class="popularContainer">
-                        <h2 class="header">Популярные блюда</h2>
-                        <div class="description">
-                            В меню вы найдете самые популярные блюда тайской кухни,
-                            приготовленные по аутентичным рецептам с настоящими тайскими
-                            специями и соусами.
+                <div class="contacts_wrapper">
+                    <form action="submit">
+                        <h3>Форма связи по любым вопросам</h3>
+                        <div class="field" tabindex="1">
+                            <p>
+                                Ваше имя
+                            </p>
+                            <input name="username" type="text" placeholder="Гордон Рамзи" required>
                         </div>
-                        <a class="button header" href="#">
-                            <div class="header">МЕНЮ</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="cardsWrapper">
-                    <div class="card">
-                        <img src="images/ananas.png" alt="Ананасовый жаренный рис">
-                        <div class="cardHeader">Ананасовый жаренный рис</div>
-                        <div class="cardDescriptor">
-                            Аппетитный жаренный рис с креветками, кешью,
-                            кусоками овощей и ананаса. Блюдо не острое,
-                            а значит порадует и детей.
+                        <div class="field" tabindex="2">
+                            <p for="phone">
+                                Номер телефона
+                            </p>
+                            <input name="phone" type="tel" placeholder="+7(999)999-99-99" required>
                         </div>
-                    </div>
-                    <div class="card">
-                        <img src="images/karri.png" alt="Ананасовый жаренный рис">
-                        <div class="cardHeader">Зелённое карри с курицей</div>
-                        <div class="cardDescriptor">
-                            Аутентичное тайское карри, куда мы не пожалели
-                            листьев кафир-лайма и базилика, чтобы вкус
-                            был максимально насыщенным.
+                        <div class="field" tabindex="3">
+                            <p for="message">
+                                Ваше сообщение или комментарий
+                            </p>
+                            <textarea name="message" placeholder="Хочу узнать о..."></textarea>
                         </div>
-                    </div>
-                    <div class="card">
-                        <img src="images/salat.png" alt="Ананасовый жаренный рис">
-                        <div class="cardHeader">Острый мясной салат</div>
-                        <div class="cardDescriptor">
-                            Салат «лап му» с рисовой крошкой и мятой — это нечто невероятное!
+                        <button type="sumbit">Заказать звонок</button>
+                    </form>
+                    <div class="contacts">
+                        <div class="object">
+                            <h3>Фактический адрес</h3>
+                            <p>Москва, Ветошный переулок дом 9, Торговый центр «Никольский пассаж».</p>
+                            <p>Станции метро: «Площадь Революции», «Китай-город», «Охотный ряд».</p>
+                        </div>
+                        <div class="object">
+                            <h3>Электронная почта по всем вопросам</h3>
+                            <p>contact@thaizhguch.com</p>
+                        </div>
+                        <div class="object">
+                            <h3>Телефон доставки в Зеленограде</h3>
+                            <p>+7 903 273-67-23, Анна</p>
                         </div>
                     </div>
                 </div>
-                <a class="button" href="#">
-                    <div class="header">Онлайн заказ тайской еды в Москве</div>
-                </a>
+                <div class="recvizits">
+                    <h3>Реквизиты</h3>
+                    <p>ООО «ТАЙЖГУЧ» ИНН/КПП 9728023881/ 772801001, ОГРН 1207700503911</p>
+                    <p>Юридический адрес:</p>
+                    <p>117463 Г.Москва ВН.ТЕР.Г. МУНИЦИПАЛЬНЫЙ ОКРУГ ЯСЕНЕВО ПР-КТ НОВОЯСЕНЕВСКИЙ Д. 32, К. 1 ЭТАЖ/ПОМЕЩ. 1/VI КОМ./ОФИС 2/322</p>
+                    <p>Телефон/факс: +79853971606</p>
+
+                    <h3>При возникновение проблем с оплатой</h3>
+                    <p>Пожалуйста, пишите на электронную почту: contact@thaizhguch.com</p>
+                </div> 
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A143e14f6a3b336072e5b8762d804bab3372deca4dd80177d6a036f8835f4bd74&amp;source=constructor" width="100%" height="500" frameborder="0"></iframe>
             </div>
         </div>
     </div>
+
+    <!-- Футер -->
 
     <footer class="block" id="footer">
         <div class="wrapper">
             <div class="info"> ООО "ТайЖгуч" © 2021</div>
             <div class="links">
-                <a href="#">Информация о доставке</a>
-                <a href="#">Информация о компании</a>
-                <a href="#">Публичная оферта</a>
+                <a href="cart.html">Корзина</a>
+                <a href="contacts.html">Информация о компании</a>
+                <a href="oferta.html">Публичная оферта</a>
             </div>
             <div class="shares">
-                <a href="#">
-                    <img src="images/WhatsApp.png" alt="WhatsApp">
+                <a href="https://api.whatsapp.com/send?phone=66848722727">
+                    <img src="images/whatsapp.png" alt="WhatsApp" title="WhatsApp">
                 </a>
-                <a href="#">
-                    <img src="images/Facebook.png" alt="Facebook">
+                <a href="https://www.instagram.com/thaizhguch/">
+                    <img src="images/facebook.png" alt="Facebook" title="Facebook">
                 </a>
-                <a href="#">
-                    <img src="images/Inst.png" alt="Instagram">
+                <a href="https://www.instagram.com/thaizhguch/">
+                    <img src="images/inst.png" alt="Instagram" title="Instagram">
                 </a>
             </div>
         </div>
