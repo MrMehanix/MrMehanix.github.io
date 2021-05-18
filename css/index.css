@@ -553,7 +553,7 @@ body {
   color: #ffffff;
   text-align: center;
   font-family: "PF Beau Sans Pro";
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 20px;
 }
 
@@ -562,7 +562,7 @@ body {
   color: #ffffff;
   text-align: center;
   font-family: "PF Beau Sans Pro";
-  font-weight: lighter;
+  font-weight: light;
   font-size: 14px;
   margin: 15px auto 25px auto;
 }
